@@ -1148,6 +1148,7 @@ img {
 
     .nav-menu .nav-link {
         display: block;
+        background-color: var(--accent-color);
         padding: 15px 20px;
         font-size: 1.1rem;
         border-radius: var(--radius-md);
@@ -1156,13 +1157,15 @@ img {
     }
 
     .nav-menu .nav-link:hover {
-        background-color: var(--accent-color);
         color: var(--primary-color);
     }
 
+    .nav-link:active {
+        color: var(--primary-color);
+    } 
+
     .mobile-toggle {
         display: flex;
-
     }
 
     .header-actions {
